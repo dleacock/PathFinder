@@ -1,7 +1,9 @@
+#include "Sandbox.h"
 
+int main(int argc, char* args[]) {
 
-int main(int argc, char** argv[]) {
-
+	Sandbox sbTest;
+	sbTest.init();
 
 	return 0;
 }
